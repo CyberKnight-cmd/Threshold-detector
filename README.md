@@ -36,14 +36,14 @@
 1. Clone this repository or download the source code:
    ```bash
    git clone https://github.com/your-repo/threshold-detector.git
-   cd threshold-detector
+   cd src/
    ```
 
 2. Install the required Python libraries:
    ```bash
    pip install pygame pyserial matplotlib
    ```  
-3. Upload the Arduino code for reading sound sensor data to your Arduino board using the Arduino IDE.
+3. Upload the Arduino code for reading sound sensor data to your Arduino board using the Arduino IDE or Platform IO.
 
 ---
 
@@ -68,13 +68,13 @@ python Monitor.py
 ---
 
 ## File Structure
-- include/ : contains the readme files for headers
-- lib/ : The libraries in the project for Arduino
-- src/: Contains the source code file (Upload that to the Arduino.)
-- test/ : Used as a test folder (Only for testing code)
-- Monitor.py : Main Python script for the project.
-- noise_data.csv: CSV file to log noise fluctuation data.
-- README.md: Documentation for the project.
+- `include/` : contains the readme files for headers
+- `lib/` : The libraries in the project for Arduino
+- `src/` : Contains the source code file (Upload that to the Arduino.)
+- `test/` : Used as a test folder (Only for testing code)
+- `Monitor.py` : Main Python script for the project.
+- `noise_data.csv`: CSV file to log noise fluctuation data.
+- `README.md` : Documentation for the project.
 
 --- 
 
@@ -89,7 +89,9 @@ python Monitor.py
 
 4. Data Analysis: Calculates the percentage of silence in the recorded session and displays it in the GUI.
 
+
 ---
+
 
 ## Possible Future Enhancements
 
@@ -97,13 +99,13 @@ python Monitor.py
 - Notification System: Include alerts when noise exceeds a threshold.
 - Cloud Integration: Upload data to a server for centralized monitoring and reporting.
 
----
+
 
 ## Contributions
 
 Contributions are welcome! Feel free to open issues or submit pull requests for improvements.
 
----
+
 
 ## License
 
