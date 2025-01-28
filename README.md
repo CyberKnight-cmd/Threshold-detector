@@ -56,7 +56,7 @@
 3. Run the Python script:
 
 ```bash
-python threshold_detector.py
+python Monitor.py
 ```
 
 4. Use the GUI:
@@ -109,4 +109,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests for 
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
----
